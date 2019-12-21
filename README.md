@@ -1,7 +1,13 @@
-# a5-data-report
+# Mass Shootings in 2018 Report
 
-In this assignment, you'll complete the instructions **on Canvas** to demonstrate you ability to leverage `R Markdown` to build a report based on crowd-sourced mass shootings in the U.S. in 2018.  
-
-[comment]: <> (When you're finished, please **edit this README.md** file to include a link to your hosted report -this will **earn you points** and make **grading easier**. When you're finished, please make sure to **submit this GitHub URL** to Canvas on time for credit.)
+Demonstrates the ability to leverage `R Markdown` to build a report based on crowd-sourced mass shootings in the U.S. in 2018.  
 
 - **[Click here to view my report](https://info201b-w19.github.io/a5-phung-phu/)**
+
+## Skills:
+- Computes multiple values in R and includes them using inline .Rmd syntax. 
+- Uses `dplyr` for data wrangling
+- Renders a table of aggregate data in the report.
+- References values calculated in R.
+- Uses `Leaflet` to build an interactive map that shows a marker at the location of each shooting. Manipulates the appearance (size, color) of the markers based on the underlying dataset (# injured, # killed). Detailed information is shown to the user when they hover over each point.
+- Uses `ggplot2` to create a plot showing mass shootings by month.
